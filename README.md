@@ -2,7 +2,7 @@
 
 This repository is a synthetic reference implementation showing how AI governance can be translated from policy language into practical, auditable controls for a banking environment.
 
-It demonstrates how an enterprise AI risk function could track AI use cases, assess risk, assign accountable owners, define mitigation plans, monitor controls, collect evidence, escalate issues, and report to a risk committee.
+The implementation tracks AI use cases, risk assessments, accountable owners, mitigation plans, controls, evidence, open issues, monitoring requirements, and committee reporting outputs.
 
 All data in this repository is synthetic. No real bank, customer, employee, vendor, or production data is used.
 
@@ -10,7 +10,7 @@ All data in this repository is synthetic. No real bank, customer, employee, vend
 
 Banks are adopting machine learning, generative AI, vendor AI tools, and agentic workflows across credit, fraud, operations, customer service, technology, HR, and marketing.
 
-Governance teams need practical operating artifacts that show:
+The repository organizes the operating artifacts needed to answer:
 
 - What AI use cases exist
 - Who owns them
@@ -100,7 +100,7 @@ Residual risk reflects the remaining risk after existing controls are considered
 
 ## Capability focus
 
-This project is designed to demonstrate practical capability in:
+The implementation covers:
 
 - AI governance operations
 - AI risk assessments
@@ -116,5 +116,6 @@ This project is designed to demonstrate practical capability in:
 ## Disclaimer
 
 This repository is a synthetic reference implementation. The data and examples do not represent any actual financial institution, customer, employee, vendor, model, risk decision, or control environment, and are not intended for production use.
+
 
 
