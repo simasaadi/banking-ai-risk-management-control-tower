@@ -1,0 +1,12 @@
+evidence_id,use_case_id,control_id,evidence_name,evidence_type,evidence_owner,evidence_status,date_received,expiry_or_review_date,audit_ready_flag,notes
+EV-001,UC-001,CTRL-006,Credit pre-screening fairness test results,Test results,Model Risk Reviewer,Received,2026-05-08,2026-08-08,Yes,Initial fairness test completed.
+EV-002,UC-001,CTRL-007,Credit model card,Model card,Model Owner,Received,2026-05-09,2027-05-09,Yes,Includes intended use and limitations.
+EV-003,UC-003,CTRL-011,Chatbot GenAI guardrail test results,Test results,AI Product Owner,Pending,,2026-07-05,No,Required before approval.
+EV-004,UC-003,CTRL-012,Chatbot prompt injection test report,Test results,Security Reviewer,Missing,,2026-07-05,No,Critical evidence gap.
+EV-005,UC-004,CTRL-003,Call summarization privacy impact review,Privacy impact assessment,Privacy Reviewer,Received,2026-05-20,2026-11-20,Yes,Retention rule reviewed.
+EV-006,UC-006,CTRL-014,Collections risk committee decision,Committee decision,Risk Owner,Missing,,2026-07-12,No,Escalated due to customer harm risk.
+EV-007,UC-007,CTRL-006,HR adverse impact analysis,Test results,Employment Risk Reviewer,Missing,,2026-07-25,No,Required before pilot.
+EV-008,UC-008,CTRL-004,AI coding assistant security review,Security assessment,Security Reviewer,Received,2026-05-22,2026-11-22,Yes,Includes SAST requirements.
+EV-009,UC-009,CTRL-016,Agent tool permission matrix,Technical design evidence,Technology Owner,Pending,,2026-07-02,No,Critical evidence before pilot.
+EV-010,UC-009,CTRL-012,Agent prompt injection and tool abuse test report,Test results,Security Reviewer,Missing,,2026-07-02,No,Escalated to AI risk committee.
+EV-011,UC-010,CTRL-005,Vendor document extraction AI review,Vendor review,Third-Party Risk Reviewer,Received,2026-05-18,2026-11-18,Yes,Vendor contract includes audit rights.

@@ -1,0 +1,14 @@
+framework,framework_domain,requirement_or_principle,internal_control_id,evidence_required,repo_artifact
+NIST AI RMF,Govern,"AI governance structures, policies, accountability, and risk management processes are established.",CTRL-001,Completed intake record and approval decision,data/ai_use_case_register.csv
+NIST AI RMF,Map,"AI context, intended use, stakeholders, benefits, and risks are documented.",CTRL-007,Approved model card or system card,docs/model_card_template.md
+NIST AI RMF,Measure,Risks are analyzed using repeatable metrics and test methods.,CTRL-006,Fairness test results,data/ai_risk_assessment.csv
+NIST AI RMF,Manage,"Risks are prioritized, treated, monitored, and escalated.",CTRL-014,Risk decision and mitigation plan,data/risk_mitigation_plan.csv
+ISO/IEC 23894,Risk Identification,"AI risks are identified across lifecycle, data, model, operations, and stakeholders.",CTRL-001,Risk assessment record,data/ai_risk_assessment.csv
+ISO/IEC 23894,Risk Analysis,Impact and likelihood are assessed to estimate risk level.,CTRL-014,Risk scoring methodology,docs/ai_risk_scoring_methodology.md
+ISO/IEC 23894,Risk Treatment,"Controls and mitigation actions are selected, owned, and tracked.",CTRL-015,Mitigation plan,data/risk_mitigation_plan.csv
+ISO/IEC 42001,Context and Scope,AI management system scope and use-case inventory are maintained.,CTRL-001,AI inventory,data/ai_use_case_register.csv
+ISO/IEC 42001,Leadership and Accountability,Accountable owners and approvers are assigned.,CTRL-001,RACI and final approval,data/ai_governance_raci.csv
+ISO/IEC 42001,Operation,Operational controls are implemented for AI systems.,CTRL-008,Human oversight SOP,docs/human_oversight_sop.md
+Model risk governance concepts,Ongoing monitoring,"Production models are monitored for performance, drift, exceptions, and issues.",CTRL-009,Monitoring report,data/model_monitoring_plan.csv
+Privacy/security controls,Privacy by design,"Personal information use is minimized, justified, consent-aligned, and reviewed.",CTRL-003,Privacy checklist,docs/privacy_security_vendor_review_checklist.md
+Privacy/security controls,Third-party risk,"Vendor AI systems are reviewed for data handling, auditability, security, and contractual controls.",CTRL-005,Vendor review,docs/privacy_security_vendor_review_checklist.md

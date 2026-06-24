@@ -1,0 +1,14 @@
+use_case_id,monitoring_metric,threshold,monitoring_frequency,owner,alert_trigger,escalation_path,last_review_date,status
+UC-001,Approval rate disparity ratio,No segment below 0.80 relative selection ratio without documented justification,Quarterly,Model Risk Reviewer,Threshold breach or unexplained segment gap,Model Risk -> AI Risk Committee,2026-05-10,Active
+UC-002,False positive rate,Segment-level false positive rate does not exceed approved tolerance,Monthly,Fraud Analytics Lead,Threshold breach for any monitored segment,Fraud Ops -> Operational Risk,2026-06-01,Active
+UC-002,Model drift,Population stability index below approved threshold,Monthly,Model Owner,PSI exceeds threshold,Model Owner -> Model Risk,2026-06-01,Active
+UC-003,Unsupported GenAI response rate,Less than 2 percent in controlled sample,Weekly during pilot,AI Product Owner,Unsupported response rate above threshold,AI Product Owner -> AI Risk Committee,2026-06-01,Pending
+UC-003,Privacy leakage incidents,Zero confirmed leakage incidents,Continuous,Privacy Reviewer,Any confirmed leakage,Privacy -> Incident Response,2026-06-01,Pending
+UC-004,Summary accuracy QA score,Minimum 95 percent key fact accuracy in sample,Weekly during pilot,Contact Centre QA Lead,QA score below threshold,Contact Centre -> Operational Risk,2026-05-21,Active
+UC-005,Consent rule exception rate,Zero campaigns using records without valid consent,Per campaign,Data Owner,Any consent exception,Privacy -> Marketing Risk,2026-05-17,Active
+UC-006,Vulnerable customer outreach rate,No unexplained increase relative to approved treatment strategy,Monthly,Conduct Risk Reviewer,Threshold breach,Conduct Risk -> AI Risk Committee,2026-06-05,Pending
+UC-007,Adverse impact ratio,No monitored group below approved threshold without documented mitigation,Before pilot and quarterly,Employment Risk Reviewer,Threshold breach,HR Risk -> Legal/Risk Committee,2026-05-30,Pending
+UC-008,Sensitive data DLP alerts,Zero high-severity confidential data paste events,Continuous,Technology Owner,High severity DLP alert,Technology Risk -> Security,2026-05-24,Active
+UC-009,Unauthorized tool action attempts,Zero successful unauthorized actions,Continuous during pilot,Technology Owner,Any successful unauthorized action,Incident Response -> AI Risk Committee,2026-06-10,Pending
+UC-009,Prompt injection pass rate,100 percent of critical test cases blocked,Before pilot and monthly,Security Reviewer,Any critical failure,Security -> AI Risk Committee,2026-06-10,Pending
+UC-010,Extraction field accuracy,Minimum 98 percent accuracy for critical fields,Monthly,Commercial Operations Owner,Accuracy below threshold,Operations -> Vendor Risk,2026-05-19,Active
