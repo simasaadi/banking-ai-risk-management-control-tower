@@ -4,7 +4,7 @@ This repository is a synthetic reference implementation showing how AI governanc
 
 It demonstrates how an enterprise AI risk function could track AI use cases, assess risk, assign accountable owners, define mitigation plans, monitor controls, collect evidence, escalate issues, and report to a risk committee.
 
-All data in this repository is synthetic and created for demonstration and learning. No real bank, customer, employee, vendor, or production data is used.
+All data in this repository is synthetic. No real bank, customer, employee, vendor, or production data is used.
 
 ## Why this project matters
 
@@ -115,5 +115,6 @@ This project is designed to demonstrate practical capability in:
 
 ## Disclaimer
 
-This repository is for learning and demonstration only. The synthetic data and examples do not represent any actual financial institution, customer, employee, vendor, model, risk decision, or control environment.
+This repository is a synthetic reference implementation. The data and examples do not represent any actual financial institution, customer, employee, vendor, model, risk decision, or control environment, and are not intended for production use.
+
 
