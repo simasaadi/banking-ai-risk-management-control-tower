@@ -1,10 +1,10 @@
-# Banking AI Risk Management Control Tower
+﻿# Banking AI Risk Management Control Tower
 
-This repository is a synthetic portfolio project showing how AI governance can be translated from policy language into practical, auditable controls for a banking environment.
+This repository is a synthetic reference implementation showing how AI governance can be translated from policy language into practical, auditable controls for a banking environment.
 
 It demonstrates how an enterprise AI risk function could track AI use cases, assess risk, assign accountable owners, define mitigation plans, monitor controls, collect evidence, escalate issues, and report to a risk committee.
 
-All data in this repository is synthetic and created for portfolio demonstration. No real bank, customer, employee, vendor, or production data is used.
+All data in this repository is synthetic and created for demonstration and learning. No real bank, customer, employee, vendor, or production data is used.
 
 ## Why this project matters
 
@@ -98,9 +98,9 @@ Risk score = impact x likelihood
 
 Residual risk reflects the remaining risk after existing controls are considered.
 
-## Portfolio positioning
+## Capability focus
 
-This project is designed to show practical experience with:
+This project is designed to demonstrate practical capability in:
 
 - AI governance operations
 - AI risk assessments
@@ -115,4 +115,5 @@ This project is designed to show practical experience with:
 
 ## Disclaimer
 
-This repository is for learning and portfolio demonstration only. The synthetic data and examples do not represent any actual financial institution, customer, employee, vendor, model, risk decision, or control environment.
+This repository is for learning and demonstration only. The synthetic data and examples do not represent any actual financial institution, customer, employee, vendor, model, risk decision, or control environment.
+
